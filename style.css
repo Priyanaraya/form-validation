@@ -1,0 +1,37 @@
+
+body {
+    font-family:Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #49accaab;
+}
+h2{
+    text-align: center;
+}
+form {
+    width: 400px;
+    height: 400px;
+    background: rgb(22, 184, 206);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.87);
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 3px;
+}
+.error {
+    color: red;
+    font-size: 16px;
+}
+button {
+    background: rgb(107, 6, 128);
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
